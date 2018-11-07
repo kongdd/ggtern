@@ -108,6 +108,7 @@ strip_unapproved <- function(layers){
 .approvedstat     <- c( identity         = "StatIdentity",
                         confidence       = "StatConfidenceTern",
                         density_tern     = "StatDensityTern",
+                        prop_tern        = "StatProbTern",
                         smooth_tern      = "StatSmoothTern",
                         sum              = "StatSum",
                         unique           = "StatUnique",
